@@ -1,0 +1,48 @@
+.aboutus{
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+    background-color: #EAFFFE;
+}
+.a-left{
+    margin-left: 150px;
+flex:1;
+}
+.a-left img{
+    width: 400px;
+}
+.a-right
+{
+    padding-top: 100px;
+    padding-right: 140px;
+}
+.a-right p{
+    padding-left: 100px;
+    font-weight: lighter;
+    padding-top: 30px;
+}
+.learnmore
+{
+    margin-top: 70px;
+    margin-right: 550px;
+    width: 282px;
+    border-radius: 100px;
+    background: conic-gradient(from 180deg at 50% 50%, #184BE1 0deg, #184BE1 360deg);
+    color:#EAFFFE;
+    font-weight: bold;
+    box-shadow: 12px 9px 77px #184BE1;
+    border: none;
+    font-size: large ;
+    height: 81px;
+    float: right;
+}
+
+#head{
+    margin-left: 100px;
+}
+
+
+#hrline1{
+    margin-top: 50px;
+    margin-right: 550px;
+}
