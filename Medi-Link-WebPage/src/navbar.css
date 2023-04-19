@@ -1,0 +1,104 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 13px;
+
+}
+body {
+  font-size: 1.6rem;
+}
+li {
+  list-style: none;
+}
+li:hover{
+  text-transform:uppercase;
+  
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+a:hover{
+  color: #184BE1;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 20vh;
+  background: #EAFFFE;
+}
+.nav img{
+  width: 120px;
+  height: 188px;
+  margin-top: 10px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+}
+.nav-toggler {
+  display: none;
+}
+.nav-toggler div {
+  width: 2.5rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background: rgb(204, 204, 204);
+  transition: 0.3s ease-in;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-toggler {
+    display: block;
+    cursor: pointer;
+  }
+  .nav-menu {
+    position: fixed;
+    top: 7vh;
+    right: 0;
+    height: 93vh;
+    width: 50vw;
+    background: #c6f5f2;;
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
+  }
+}
+/* Active Class */
+.nav-active {
+  transform: translateX(0%);
+}
+
+/* Toggle Icon Animation */
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-4px, 5px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-4px, -5px);
+}
+.button{
+  background: linear-gradient(90deg, #80C6C2 13.2%, #184BE1 100%);
+border-radius: 100px;
+width: 190px;
+height: 91px;
+border : 0;
+text-align: center;
+font-size: 16px;
+color: rgb(255, 255, 255);
+font-weight: bolder;
+cursor: pointer;
+
+}

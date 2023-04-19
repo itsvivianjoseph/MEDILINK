@@ -1,0 +1,22 @@
+.blog{
+    display: flex;
+    height: 77vh;
+    margin-top: 6rem;
+    background: #EAFFFE;}
+.b-right{
+    flex:1;
+}
+.i-right img{
+    width: 500px;
+    position: absolute;
+    right: 240px;
+    height: 500px;
+}
+
+.b-left{
+    margin-left: 200px;
+}
+
+.shift{
+    margin-left: 1000px;
+}
