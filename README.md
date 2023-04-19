@@ -1,4 +1,5 @@
-#summary of the Medilink
+# summary of the Medilink
+
 MEDILINK is a comprehensive and innovative web application designed to connect doctors and patients, particularly high-risk patients, for prompt attention and care. It features end-to-end encrypted chat, EHR accessibility, video conferencing, voice-based AI for in-platform navigation, chat-bot for finding relevant doctors, SOS emergency call, and real-time notifications. The platform's emphasis on privacy and security through its encrypted chat and EHR accessibility is noteworthy, as is its video conferencing feature for remote consultations. MEDILINK's voice-based AI and chat-bot features are designed to make the platform more accessible to patients who may have difficulty navigating traditional interfaces or finding the right specialist. The reminder system and real-time notifications could improve patient adherence to medication schedules and appointments, while the SOS emergency call feature could potentially save lives. Overall, MEDILINK has the potential to revolutionize healthcare by enabling doctors to provide better care to their patients and patients to manage their health more effectively.
 
 
